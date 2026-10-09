@@ -1,0 +1,7 @@
+data/
+*.csv
+!results/*.csv
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+*.joblib

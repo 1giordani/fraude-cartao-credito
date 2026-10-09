@@ -1,0 +1,52 @@
+{
+  "source_url": "https://storage.googleapis.com/download.tensorflow.org/data/creditcard.csv",
+  "raw_rows": 284807,
+  "raw_frauds": 492,
+  "duplicates_removed": 1081,
+  "rows": 283726,
+  "frauds": 473,
+  "champion": "XGBoost_pesos",
+  "threshold": 0.6910869479179382,
+  "test_metrics": {
+    "model": "XGBoost_pesos",
+    "rule": "ajustado_validacao",
+    "threshold": 0.6910869479179382,
+    "precision": 0.77,
+    "recall": 0.8105263157894737,
+    "f1": 0.7897435897435897,
+    "average_precision": 0.8118621470558638,
+    "roc_auc": 0.9675438441649657,
+    "accuracy": 0.9992774821132767,
+    "tp": 77,
+    "fp": 23,
+    "fn": 18,
+    "tn": 56628
+  },
+  "shap_model": "XGBoost_pesos",
+  "shap_global_top5": {
+    "V14": 1.8415777683258057,
+    "V4": 1.6020119190216064,
+    "V12": 0.70676189661026,
+    "V10": 0.6751905679702759,
+    "V11": 0.6503579616546631
+  },
+  "shap_local": {
+    "index": 115676,
+    "label": 1,
+    "score": 0.9995473027229309,
+    "threshold": 0.6910869479179382,
+    "base_log_odds": 1.077380895614624,
+    "sum_log_odds": 7.699884414672852,
+    "positive_top3": {
+      "V14": 3.358355760574341,
+      "V10": 1.665993571281433,
+      "V12": 1.1878143548965454
+    },
+    "negative_top3": {
+      "V8": -0.7603693604469299,
+      "V2": -0.26330995559692383,
+      "Amount": -0.23037979006767273
+    }
+  },
+  "seed": 42
+}

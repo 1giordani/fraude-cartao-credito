@@ -1,0 +1,53 @@
+Logistica_pesos
+              precision    recall  f1-score   support
+
+      Normal     0.9996    0.9998    0.9997     56651
+      Fraude     0.8391    0.7684    0.8022        95
+
+    accuracy                         0.9994     56746
+   macro avg     0.9193    0.8841    0.9009     56746
+weighted avg     0.9993    0.9994    0.9994     56746
+
+
+RandomForest_pesos
+              precision    recall  f1-score   support
+
+      Normal     0.9996    0.9999    0.9997     56651
+      Fraude     0.9012    0.7684    0.8295        95
+
+    accuracy                         0.9995     56746
+   macro avg     0.9504    0.8841    0.9146     56746
+weighted avg     0.9994    0.9995    0.9995     56746
+
+
+XGBoost_pesos
+              precision    recall  f1-score   support
+
+      Normal     0.9997    0.9996    0.9996     56651
+      Fraude     0.7700    0.8105    0.7897        95
+
+    accuracy                         0.9993     56746
+   macro avg     0.8848    0.9051    0.8947     56746
+weighted avg     0.9993    0.9993    0.9993     56746
+
+
+Logistica_under
+              precision    recall  f1-score   support
+
+      Normal     0.9992    0.9996    0.9994     56651
+      Fraude     0.6757    0.5263    0.5917        95
+
+    accuracy                         0.9988     56746
+   macro avg     0.8374    0.7629    0.7956     56746
+weighted avg     0.9987    0.9988    0.9987     56746
+
+
+Logistica_over
+              precision    recall  f1-score   support
+
+      Normal     0.9995    0.9997    0.9996     56651
+      Fraude     0.8193    0.7158    0.7640        95
+
+    accuracy                         0.9993     56746
+   macro avg     0.9094    0.8578    0.8818     56746
+weighted avg     0.9992    0.9993    0.9992     56746
